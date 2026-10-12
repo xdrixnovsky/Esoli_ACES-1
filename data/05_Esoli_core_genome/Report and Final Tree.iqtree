@@ -1,0 +1,355 @@
+IQ-TREE 3.1.3 built Jul 26 2026
+
+Input file name: /mnt/pulsar/files/staging/15642883/inputs/dataset_5ff7ff85-85a4-4579-843a-483276126488.dat
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 12026
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 35 sequences with 3586436 nucleotide sites
+Number of constant sites: 3.30652e+06 (= 92.1952% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 3.30652e+06 (= 92.1952% of all sites)
+Number of parsimony informative sites: 146188
+Number of distinct site patterns: 62505
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+R5
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+GTR+F+R5        -7845566.714 15691299.428 +        1 15691299.432 +        1 15692386.120 +        1
+TIM3+F+R5       -7846576.005 15693314.010 -        0 15693314.014 -        0 15694374.516 -        0
+TIM+F+R5        -7846707.573 15693577.146 -        0 15693577.150 -        0 15694637.652 -        0
+TIM2+F+R5       -7847290.282 15694742.564 -        0 15694742.568 -        0 15695803.070 -        0
+TN+F+R5         -7847663.172 15695486.344 -        0 15695486.348 -        0 15696533.758 -        0
+TVM+F+R5        -7850496.222 15701156.444 -        0 15701156.448 -        0 15702230.043 -        0
+TPM3u+F+R5      -7851445.802 15703051.604 -        0 15703051.608 -        0 15704099.018 -        0
+K3Pu+F+R5       -7851695.899 15703551.798 -        0 15703551.802 -        0 15704599.212 -        0
+TPM2u+F+R5      -7852346.937 15704853.874 -        0 15704853.878 -        0 15705901.288 -        0
+HKY+F+R5        -7852664.837 15705487.674 -        0 15705487.678 -        0 15706521.995 -        0
+GTR+R5          -7869835.263 15739830.526 -        0 15739830.530 -        0 15740877.940 -        0
+SYM+R5          -7869835.682 15739831.364 -        0 15739831.368 -        0 15740878.778 -        0
+SYM+R5          -7869835.682 15739831.364 -        0 15739831.368 -        0 15740878.778 -        0
+TIM+R5          -7870071.118 15740298.236 -        0 15740298.239 -        0 15741319.464 -        0
+TIMe+R5         -7870071.885 15740299.770 -        0 15740299.773 -        0 15741320.998 -        0
+TIMe+R5         -7870071.885 15740299.770 -        0 15740299.773 -        0 15741320.998 -        0
+TIM3+R5         -7870425.922 15741007.844 -        0 15741007.847 -        0 15742029.072 -        0
+TIM3e+R5        -7870426.399 15741008.798 -        0 15741008.801 -        0 15742030.026 -        0
+TIM3e+R5        -7870426.399 15741008.798 -        0 15741008.801 -        0 15742030.026 -        0
+TIM2+R5         -7870703.714 15741563.428 -        0 15741563.431 -        0 15742584.656 -        0
+TIM2e+R5        -7870704.198 15741564.396 -        0 15741564.399 -        0 15742585.624 -        0
+TIM2e+R5        -7870704.198 15741564.396 -        0 15741564.399 -        0 15742585.624 -        0
+TN+R5           -7870717.327 15741588.654 -        0 15741588.657 -        0 15742596.790 -        0
+TNe+R5          -7870718.079 15741590.158 -        0 15741590.161 -        0 15742598.294 -        0
+TNe+R5          -7870718.079 15741590.158 -        0 15741590.161 -        0 15742598.294 -        0
+TVM+R5          -7873986.453 15748130.906 -        0 15748130.910 -        0 15749165.227 -        0
+TVMe+R5         -7873986.551 15748131.102 -        0 15748131.106 -        0 15749165.423 -        0
+TVMe+R5         -7873986.551 15748131.102 -        0 15748131.106 -        0 15749165.423 -        0
+K3Pu+R5         -7874345.655 15748845.310 -        0 15748845.313 -        0 15749853.446 -        0
+K3P+R5          -7874345.689 15748845.378 -        0 15748845.381 -        0 15749853.514 -        0
+K3P+R5          -7874345.689 15748845.378 -        0 15748845.381 -        0 15749853.514 -        0
+TPM3u+R5        -7874609.119 15749372.238 -        0 15749372.241 -        0 15750380.374 -        0
+TPM3+R5         -7874609.199 15749372.398 -        0 15749372.401 -        0 15750380.534 -        0
+TPM3+R5         -7874609.199 15749372.398 -        0 15749372.401 -        0 15750380.534 -        0
+TPM2u+R5        -7874949.964 15750053.928 -        0 15750053.931 -        0 15751062.064 -        0
+TPM2+R5         -7874950.004 15750054.008 -        0 15750054.011 -        0 15751062.144 -        0
+TPM2+R5         -7874950.004 15750054.008 -        0 15750054.011 -        0 15751062.144 -        0
+HKY+R5          -7874993.799 15750139.598 -        0 15750139.601 -        0 15751134.641 -        0
+K2P+R5          -7874994.306 15750140.612 -        0 15750140.615 -        0 15751135.655 -        0
+K2P+R5          -7874994.306 15750140.612 -        0 15750140.615 -        0 15751135.655 -        0
+F81+F+R5        -8039168.831 16078493.662 -        0 16078493.665 -        0 16079514.890 -        0
+F81+R5          -8055755.725 16111661.450 -        0 16111661.453 -        0 16112643.400 -        0
+JC+R5           -8055755.897 16111661.794 -        0 16111661.797 -        0 16112643.744 -        0
+JC+R5           -8055755.897 16111661.794 -        0 16111661.797 -        0 16112643.744 -        0
+JC+R6           -8055750.621 16111655.242 -        0 16111655.245 -        0 16112663.378 -        0
+JC+R4           -8055798.992 16111743.984 -        0 16111743.987 -        0 16112699.749 -        0
+JC+I+R6         -8055805.171 16111766.342 -        0 16111766.345 -        0 16112787.570 -        0
+JC+I+R7         -8055792.569 16111745.138 -        0 16111745.142 -        0 16112792.552 -        0
+JC+I+R5         -8055848.737 16111849.474 -        0 16111849.477 -        0 16112844.517 -        0
+JC+I+R4         -8056945.014 16114038.028 -        0 16114038.031 -        0 16115006.886 -        0
+JC+R3           -8058700.818 16117543.636 -        0 16117543.639 -        0 16118473.216 -        0
+JC+I+R3         -8058700.926 16117545.852 -        0 16117545.855 -        0 16118488.524 -        0
+JC+I+G4         -8098063.197 16196264.394 -        0 16196264.397 -        0 16197167.788 -        0
+JC+I            -8130678.695 16261493.390 -        0 16261493.393 -        0 16262383.692 -        0
+JC+R2           -8130678.479 16261494.958 -        0 16261494.961 -        0 16262398.352 -        0
+JC+I+R2         -8130678.520 16261497.040 -        0 16261497.043 -        0 16262413.527 -        0
+JC+G4           -8217551.829 16435239.658 -        0 16435239.661 -        0 16436129.960 -        0
+JC              -8485175.152 16970484.304 -        0 16970484.307 -        0 16971361.513 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+R5
+
+Rate parameter R:
+
+  A-C: 0.8895
+  A-G: 5.1337
+  A-T: 0.9339
+  C-G: 0.5713
+  C-T: 8.2494
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2229
+  pi(C) = 0.2654
+  pi(G) = 0.2876
+  pi(T) = 0.224
+
+Rate matrix Q:
+
+  A   -0.9357    0.1149    0.7189    0.1018
+  C   0.09653    -1.076      0.08    0.8997
+  G    0.5571   0.07383     -0.74    0.1091
+  T    0.1013     1.066      0.14    -1.307
+
+Model of rate heterogeneity: FreeRate with 5 categories
+Site proportion and rates:  (0.5504,3.407e-15) (0.2137,0.3431) (0.1778,0.5355) (0.04691,5.817) (0.01113,50.21)
+
+ Category  Relative_rate  Proportion
+  1         3.407e-15      0.5504
+  2         0.3431         0.2137
+  3         0.5355         0.1778
+  4         5.817          0.04691
+  5         50.21          0.01113
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -7845415.4523 (s.e. 5699.1776)
+Unconstrained log-likelihood (without tree): -11714482.0071
+Number of free parameters (#branches + #model parameters): 83
+Akaike information criterion (AIC) score: 15690996.9047
+Corrected Akaike information criterion (AICc) score: 15690996.9086
+Bayesian information criterion (BIC) score: 15692083.5962
+
+Total tree length (sum of branch lengths): 0.2190
+Sum of internal branch lengths: 0.0821 (37.4822% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Esoli_2023EL-00787' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--Esoli_2023EL-00787
+|
+|              +--Esoli_A23
+|           +--| (100/100)
+|           |  |     +--Esoli_32B21CPO002
+|           |  |  +--| (100/100)
+|           |  |  |  +--Esoli_PDT003215581.1
+|           |  +**| (0/90)
+|           |     |  +--Esoli_ECC-115
+|           |     +--| (100/100)
+|           |        +--Esoli_JH419Ecl
+|        +--| (100/94)
+|        |  +--Esoli_PE7AN1
+|     +--| (100/84)
+|     |  |           +--Esoli_PDT001471783.1
+|     |  |        +--| (100/100)
+|     |  |        |  |        +**Esoli_PDT003215601.1
+|     |  |        |  |     +**| (0/95)
+|     |  |        |  |     |  +--Esoli_PDT003215474.1
+|     |  |        |  |  +--| (100/100)
+|     |  |        |  |  |  +--Esoli_PDT003215664.1
+|     |  |        |  +--| (100/100)
+|     |  |        |     +--Esoli_FL126
+|     |  |     +--| (100/88)
+|     |  |     |  |  +--Esoli_S27
+|     |  |     |  +--| (100/100)
+|     |  |     |     +--Esoli_R12
+|     |  |  +--| (100/81)
+|     |  |  |  |                             +------------------Esoli_C3D9
+|     |  |  |  |          +------------------| (100/100)
+|     |  |  |  |          |                  +-------------------------Esoli_JBCBAAD-19-0100
+|     |  |  |  |  +-------| (100/100)
+|     |  |  |  |  |       +-------------Esoli_LF7a
+|     |  |  |  +--| (100/100)
+|     |  |  |     +--Esoli_UKJ_5.6
+|     |  +--| (99.4/39)
+|     |     |           +--Esoli_C4A1
+|     |     |        +--| (100/100)
+|     |     |        |  |  +--Esoli_AF-22b-4245
+|     |     |        |  +--| (100/100)
+|     |     |        |     |  +--Esoli_PDT002480229.1
+|     |     |        |     +--| (100/100)
+|     |     |        |        +--Esoli_PDT002135124.1
+|     |     |     +--| (100/100)
+|     |     |     |  |  +--Esoli_ESBL03
+|     |     |     |  +--| (100/100)
+|     |     |     |     +--Esoli_C4E11
+|     |     |  +--| (100/100)
+|     |     |  |  |  +**Esoli_GMG1544
+|     |     |  |  +--| (100/100)
+|     |     |  |     +**Esoli_GMG1543
+|     |     +--| (69.2/37)
+|     |        |     +--Esoli_PDT002204545.1
+|     |        |  +--| (100/82)
+|     |        |  |  |     +--Esoli_a12
+|     |        |  |  |  +--| (100/100)
+|     |        |  |  |  |  +--Esoli_a10
+|     |        |  |  +--| (100/100)
+|     |        |  |     +--Esoli_PDT003010528.1
+|     |        +--| (100/98)
+|     |           |  +--Esoli_140044
+|     |           +--| (100/82)
+|     |              +--Esoli_C6A5
+|  +--| (100/100)
+|  |  +--Esoli_AS1
++--| (98.6/100)
+|  +--Esoli_PDT001955393.1
+|
++--Esoli_2023EL-00788
+
+Tree in newick format:
+
+(Esoli_2023EL-00787:0.0000011407,(((((Esoli_A23:0.0000492777,((Esoli_32B21CPO002:0.0000111455,Esoli_PDT003215581.1:0.0000245459)100/100:0.0000256227,(Esoli_ECC-115:0.0000075879,Esoli_JH419Ecl:0.0000104104)100/100:0.0000247637)0/90:0.0000000608)100/100:0.0052861852,Esoli_PE7AN1:0.0048019261)100/94:0.0007463894,((((Esoli_PDT001471783.1:0.0016775326,(((Esoli_PDT003215601.1:0.0000002584,Esoli_PDT003215474.1:0.0000005689)0/95:0.0000000278,Esoli_PDT003215664.1:0.0000017024)100/100:0.0000630479,Esoli_FL126:0.0001634896)100/100:0.0030514954)100/100:0.0033539117,(Esoli_S27:0.0000422672,Esoli_R12:0.0000628964)100/100:0.0052490614)100/88:0.0004661478,(((Esoli_C3D9:0.0293360370,Esoli_JBCBAAD-19-0100:0.0392892900)100/100:0.0294154229,Esoli_LF7a:0.0209591070)100/100:0.0130576626,Esoli_UKJ_5.6:0.0055370982)100/100:0.0009809797)100/81:0.0002589356,((((Esoli_C4A1:0.0036306386,(Esoli_AF-22b-4245:0.0015745431,(Esoli_PDT002480229.1:0.0000247309,Esoli_PDT002135124.1:0.0000251380)100/100:0.0012763790)100/100:0.0017308161)100/100:0.0006837433,(Esoli_ESBL03:0.0028733080,Esoli_C4E11:0.0037020946)100/100:0.0006131504)100/100:0.0009774389,(Esoli_GMG1544:0.0000000279,Esoli_GMG1543:0.0000000279)100/100:0.0037127483)100/100:0.0018424448,((Esoli_PDT002204545.1:0.0048132839,((Esoli_a12:0.0000096031,Esoli_a10:0.0000147850)100/100:0.0000348688,Esoli_PDT003010528.1:0.0000262565)100/100:0.0048044154)100/82:0.0006833549,(Esoli_140044:0.0047292126,Esoli_C6A5:0.0046219812)100/82:0.0008420195)100/98:0.0004612536)69.2/37:0.0002339188)99.4/39:0.0002275910)100/84:0.0006327179,Esoli_AS1:0.0051431446)100/100:0.0050449087,Esoli_PDT001955393.1:0.0000108803)98.6/100:0.0000037609,Esoli_2023EL-00788:0.0000025421);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -7845420.259694841
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++**Esoli_2023EL-00787
+|
+|                    +--Esoli_A23
+|                 +--| (100)
+|                 |  |     +--Esoli_32B21CPO002
+|                 |  |  +--| (100)
+|                 |  |  |  +--Esoli_PDT003215581.1
+|                 |  +**| (90)
+|                 |     |  +--Esoli_ECC-115
+|                 |     +--| (100)
+|                 |        +--Esoli_JH419Ecl
+|              +--| (94)
+|              |  +--Esoli_PE7AN1
+|           +--| (52)
+|           |  |        +--Esoli_C4A1
+|           |  |     +--| (100)
+|           |  |     |  |  +--Esoli_AF-22b-4245
+|           |  |     |  +--| (100)
+|           |  |     |     |  +--Esoli_PDT002480229.1
+|           |  |     |     +--| (100)
+|           |  |     |        +--Esoli_PDT002135124.1
+|           |  |  +--| (100)
+|           |  |  |  |  +--Esoli_ESBL03
+|           |  |  |  +--| (100)
+|           |  |  |     +--Esoli_C4E11
+|           |  +--| (100)
+|           |     |  +**Esoli_GMG1544
+|           |     +--| (100)
+|           |        +**Esoli_GMG1543
+|        +--| (22)
+|        |  |        +--Esoli_PDT001471783.1
+|        |  |     +--| (100)
+|        |  |     |  |        +**Esoli_PDT003215601.1
+|        |  |     |  |     +**| (95)
+|        |  |     |  |     |  +**Esoli_PDT003215474.1
+|        |  |     |  |  +--| (100)
+|        |  |     |  |  |  +**Esoli_PDT003215664.1
+|        |  |     |  +--| (100)
+|        |  |     |     +--Esoli_FL126
+|        |  |  +--| (88)
+|        |  |  |  |  +--Esoli_S27
+|        |  |  |  +--| (100)
+|        |  |  |     +--Esoli_R12
+|        |  +--| (81)
+|        |     |                             +------------------Esoli_C3D9
+|        |     |          +------------------| (100)
+|        |     |          |                  +-------------------------Esoli_JBCBAAD-19-0100
+|        |     |  +-------| (100)
+|        |     |  |       +-------------Esoli_LF7a
+|        |     +--| (100)
+|        |        +--Esoli_UKJ_5.6
+|     +--| (84)
+|     |  |     +--Esoli_PDT002204545.1
+|     |  |  +--| (82)
+|     |  |  |  |     +--Esoli_a12
+|     |  |  |  |  +--| (100)
+|     |  |  |  |  |  +--Esoli_a10
+|     |  |  |  +--| (100)
+|     |  |  |     +--Esoli_PDT003010528.1
+|     |  +--| (98)
+|     |     |  +--Esoli_140044
+|     |     +--| (82)
+|     |        +--Esoli_C6A5
+|  +--| (100)
+|  |  +--Esoli_AS1
++--| (100)
+|  +--Esoli_PDT001955393.1
+|
++--Esoli_2023EL-00788
+
+
+Consensus tree in newick format: 
+
+(Esoli_2023EL-00787:0.0000011153,(((((((Esoli_A23:0.0000492695,((Esoli_32B21CPO002:0.0000111480,Esoli_PDT003215581.1:0.0000245520)100:0.0000256300,(Esoli_ECC-115:0.0000075964,Esoli_JH419Ecl:0.0000104130)100:0.0000247697)90:0.0000000594)100:0.0052787183,Esoli_PE7AN1:0.0048020545)94:0.0007370268,(((Esoli_C4A1:0.0036269956,(Esoli_AF-22b-4245:0.0015751867,(Esoli_PDT002480229.1:0.0000246975,Esoli_PDT002135124.1:0.0000251299)100:0.0012746250)100:0.0017328340)100:0.0006888515,(Esoli_ESBL03:0.0028631402,Esoli_C4E11:0.0037085224)100:0.0006080698)100:0.0009726557,(Esoli_GMG1544:0.0000000593,Esoli_GMG1543:0.0000000745)100:0.0037100207)100:0.0017772075)52:0.0002594540,(((Esoli_PDT001471783.1:0.0016758028,(((Esoli_PDT003215601.1:0.0000002788,Esoli_PDT003215474.1:0.0000005598)95:0.0000000619,Esoli_PDT003215664.1:0.0000017022)100:0.0000630443,Esoli_FL126:0.0001634525)100:0.0030518599)100:0.0033574322,(Esoli_S27:0.0000422702,Esoli_R12:0.0000628420)100:0.0052459653)88:0.0004664071,(((Esoli_C3D9:0.0293285323,Esoli_JBCBAAD-19-0100:0.0392828067)100:0.0294085032,Esoli_LF7a:0.0209507504)100:0.0130492701,Esoli_UKJ_5.6:0.0055339322)100:0.0009806868)81:0.0002644829)22:0.0002070787,((Esoli_PDT002204545.1:0.0048138470,((Esoli_a12:0.0000096130,Esoli_a10:0.0000147890)100:0.0000348462,Esoli_PDT003010528.1:0.0000262461)100:0.0047951556)82:0.0006817729,(Esoli_140044:0.0047248388,Esoli_C6A5:0.0046250356)82:0.0008452362)98:0.0004688389)84:0.0006758286,Esoli_AS1:0.0051424242)100:0.0050486495,Esoli_PDT001955393.1:0.0000108875)100:0.0000037408,Esoli_2023EL-00788:0.0000025095);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t PREF.treefile -m "GTR{0.889482,5.13372,0.933865,0.571308,8.24943}+F{0.222919,0.265444,0.28762,0.224017}+R5{0.550429,3.40651e-15,0.213722,0.343144,0.177811,0.535467,0.0469136,5.81668,0.0111251,50.2082}" --length 3586436
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /mnt/pulsar/files/staging/15642883/inputs/dataset_5ff7ff85-85a4-4579-843a-483276126488.dat --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /mnt/pulsar/files/staging/15642883/inputs/dataset_5ff7ff85-85a4-4579-843a-483276126488.dat --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Aug 11 16:56:10 2026
+Total CPU time used: 28814.69113 seconds (8h:0m:14s)
+Total wall-clock time used: 2497.516654 seconds (0h:41m:37s)
+
